@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_need4speed73_gosample_1740695561032-pr-trigger-input-set
+  identifier: Build_need4speed73_gosample_1740695561032prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_need4speed73_gosample_1740695561032
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
