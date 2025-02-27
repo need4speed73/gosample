@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_need4speed73_gosample_1740694716157-push-trigger-input-set
+  identifier: Build_need4speed73_gosample_1740694716157pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_need4speed73_gosample_1740694716157
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
